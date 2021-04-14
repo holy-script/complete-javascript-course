@@ -77,16 +77,26 @@
 //     console.log("It's a draw, both teams win the trophy 🏆");
 // }
 
-const scoreDolphins = (97 + 112 + 101) / 3;
-const scoreKoalas = (109 + 95 + 106) / 3;
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 106) / 3;
 
-console.log(scoreDolphins, scoreKoalas);
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-    console.log("Dolphins win the trophy 🏆");
-} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
-    console.log("Koalas win the trophy 🏆");
-} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
-    console.log("It's a draw, both teams win the trophy 🏆");
-} else {
-    console.log("It's a draw, no teams win the trophy 😭");
-}
+// console.log(scoreDolphins, scoreKoalas);
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//     console.log("Dolphins win the trophy 🏆");
+// } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+//     console.log("Koalas win the trophy 🏆");
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+//     console.log("It's a draw, both teams win the trophy 🏆");
+// } else {
+//     console.log("It's a draw, no teams win the trophy 😭");
+// }
+
+
+// Coding Challenge 4
+
+const bill = 275;
+// const bill = 40;
+// const bill = 430;
+const tip = (bill >= 50 && bill <= 300) ? (0.15 * bill) : (0.20 * bill);
+
+console.log(`The bill was ${bill}, tip was ${tip} and the total value was ${bill + tip}`);
